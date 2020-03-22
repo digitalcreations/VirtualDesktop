@@ -12,5 +12,11 @@
     <description>$description$ You must target Windows 10 in your app.manifest.</description>
     <language>en-US</language>
     <tags>Windows Windows10 Desktop VirtualDesktop</tags>
+
+    <dependencies>
+      <group targetFramework="net472">
+        <dependency id="System.ValueTuple" version="4.5.0" />
+      </group>
+    </dependencies>
   </metadata>
 </package>
